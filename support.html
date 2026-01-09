@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Centro de ayuda y soporte de MAREA - Encuentra respuestas a tus preguntas y contacta con nuestro equipo.">
+  
+  <title>Soporte - MAREA</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌊%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="logo">
+          <span class="logo__icon">🌊</span>
+          <span class="logo__text">MAREA</span>
+        </a>
+        
+        <nav class="nav" id="nav">
+          <a href="index.html#features" class="nav__link">Características</a>
+          <a href="index.html#categories" class="nav__link">Categorías</a>
+          <a href="support.html" class="nav__link">Soporte</a>
+          <a href="index.html#download" class="nav__cta">Descargar</a>
+        </nav>
+        
+        <button class="nav__toggle" id="navToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Support Content -->
+  <main class="legal">
+    <div class="container container--narrow">
+      <div class="legal__header">
+        <h1>Centro de Ayuda</h1>
+        <p class="legal__date">Estamos aquí para acompañarte</p>
+      </div>
+      
+      <div class="legal__content">
+        <p>Bienvenido/a al Centro de Ayuda de MAREA. Aquí encontrarás respuestas a las preguntas más frecuentes y formas de contactarnos si necesitas asistencia adicional.</p>
+
+        <!-- Contact Cards -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-xl); margin: var(--space-3xl) 0;">
+          <div class="support-card" id="contact">
+            <div class="support-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <h3>Escríbenos</h3>
+            <p>Nuestro equipo responde en menos de 24 horas hábiles.</p>
+            <a href="mailto:soporte@marea.app" class="btn btn--primary" style="width: 100%;">
+              soporte@marea.app
+            </a>
+          </div>
+
+          <div class="support-card">
+            <div class="support-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
+            <h3>Preguntas Frecuentes</h3>
+            <p>Encuentra respuestas rápidas a las consultas más comunes.</p>
+            <a href="#faq" class="btn btn--secondary" style="width: 100%;">
+              Ver FAQ
+            </a>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <h2 id="faq">Preguntas Frecuentes</h2>
+        
+        <div style="margin-top: var(--space-xl);">
+          <!-- Cuenta y Acceso -->
+          <h3 style="color: var(--primary-600); margin-bottom: var(--space-lg);">💳 Cuenta y Suscripción</h3>
+          
+          <div class="faq-item">
+            <div class="faq-question">¿Cómo creo una cuenta en MAREA?</div>
+            <div class="faq-answer">
+              Puedes crear una cuenta de forma gratuita descargando la app desde App Store o Google Play. Ingresa tu email, crea una contraseña segura y ya podrás comenzar a meditar. También puedes registrarte con tu cuenta de Apple o Google para mayor comodidad.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Qué incluye el período de prueba gratuito?</div>
+            <div class="faq-answer">
+              Durante los 7 días de prueba gratuita, tendrás acceso completo a todo el contenido Premium: todas las meditaciones, descargas para escuchar offline, rutinas personalizadas y funciones exclusivas. No se realizará ningún cobro hasta que termine el período de prueba.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Cómo cancelo mi suscripción?</div>
+            <div class="faq-answer">
+              Puedes cancelar tu suscripción en cualquier momento desde la configuración de tu tienda de aplicaciones:
+              <br><br>
+              <strong>En iPhone:</strong> Ajustes → Tu nombre → Suscripciones → MAREA → Cancelar suscripción.
+              <br><br>
+              <strong>En Android:</strong> Google Play Store → Menú → Suscripciones → MAREA → Cancelar suscripción.
+              <br><br>
+              Tu acceso Premium continuará hasta el final del período de facturación actual.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Puedo solicitar un reembolso?</div>
+            <div class="faq-answer">
+              Los reembolsos son gestionados directamente por Apple o Google según sus políticas. Generalmente, puedes solicitar un reembolso dentro de los primeros días después del cobro. Visita el historial de compras de tu tienda de aplicaciones para iniciar el proceso.
+            </div>
+          </div>
+
+          <!-- Uso de la App -->
+          <h3 style="color: var(--primary-600); margin: var(--space-3xl) 0 var(--space-lg);">📱 Uso de la Aplicación</h3>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Cómo descargo meditaciones para escuchar offline?</div>
+            <div class="faq-answer">
+              Con una suscripción Premium, puedes descargar cualquier meditación tocando el ícono de descarga (flecha hacia abajo) junto a cada sesión. Las meditaciones descargadas estarán disponibles en la sección "Favoritos" y podrás escucharlas sin conexión a internet.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Puedo cambiar la voz del narrador?</div>
+            <div class="faq-answer">
+              Sí, MAREA ofrece diferentes voces de narración. Puedes seleccionar tu voz preferida desde Perfil → Configuración → Preferencias → Voz. Algunas voces están disponibles exclusivamente para usuarios Premium.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Cómo funcionan las rutinas personalizadas?</div>
+            <div class="faq-answer">
+              Cada día, MAREA te sugiere una rutina de meditación basada en tu estado de ánimo, objetivos de bienestar y tiempo disponible. Al abrir la app, puedes indicar cómo te sientes y recibirás recomendaciones adaptadas a ese momento. Cuanto más uses la app, más personalizadas serán las sugerencias.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Puedo escuchar meditaciones con la pantalla bloqueada?</div>
+            <div class="faq-answer">
+              ¡Sí! MAREA soporta reproducción en segundo plano. Puedes bloquear tu dispositivo o usar otras apps mientras escuchas. Los controles de reproducción estarán disponibles en la pantalla de bloqueo y en el centro de control de tu dispositivo.
+            </div>
+          </div>
+
+          <!-- Problemas Técnicos -->
+          <h3 style="color: var(--primary-600); margin: var(--space-3xl) 0 var(--space-lg);">🔧 Problemas Técnicos</h3>
+
+          <div class="faq-item">
+            <div class="faq-question">El audio no se reproduce correctamente</div>
+            <div class="faq-answer">
+              Si experimentas problemas con el audio, prueba estos pasos:
+              <br><br>
+              1. Verifica que tu dispositivo no esté en modo silencio.<br>
+              2. Asegúrate de tener una conexión a internet estable.<br>
+              3. Cierra y vuelve a abrir la aplicación.<br>
+              4. Reinicia tu dispositivo.<br>
+              5. Verifica que tienes la última versión de la app instalada.<br>
+              <br>
+              Si el problema persiste, contáctanos a <a href="mailto:soporte@marea.app">soporte@marea.app</a>.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">No puedo iniciar sesión en mi cuenta</div>
+            <div class="faq-answer">
+              Si tienes problemas para acceder:
+              <br><br>
+              1. Verifica que estás usando el email correcto.<br>
+              2. Usa la opción "¿Olvidaste tu contraseña?" para restablecerla.<br>
+              3. Si te registraste con Apple o Google, usa el mismo método para iniciar sesión.<br>
+              4. Verifica que tengas conexión a internet.<br>
+              <br>
+              Si continúas sin poder acceder, escríbenos indicando el email de tu cuenta.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">La app consume mucha batería o almacenamiento</div>
+            <div class="faq-answer">
+              <strong>Para optimizar el uso de batería:</strong> Evita mantener la app abierta en segundo plano cuando no la uses. La reproducción de audio optimizada no debería consumir mucha batería.
+              <br><br>
+              <strong>Para liberar almacenamiento:</strong> Ve a Favoritos → Descargas y elimina las meditaciones que ya no necesites offline. También puedes eliminar todas las descargas desde Configuración.
+            </div>
+          </div>
+
+          <!-- Contenido -->
+          <h3 style="color: var(--primary-600); margin: var(--space-3xl) 0 var(--space-lg);">🧘 Contenido y Meditaciones</h3>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Con qué frecuencia agregan nuevo contenido?</div>
+            <div class="faq-answer">
+              Agregamos nuevas meditaciones regularmente, generalmente varias veces al mes. Las nuevas sesiones aparecerán en la sección de inicio y en las categorías correspondientes. También enviamos notificaciones cuando hay contenido nuevo disponible (si las tienes habilitadas).
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Pueden agregar meditaciones sobre un tema específico?</div>
+            <div class="faq-answer">
+              ¡Nos encanta recibir sugerencias! Envíanos un mensaje a <a href="mailto:sugerencias@marea.app">sugerencias@marea.app</a> con el tema que te gustaría ver. Aunque no podemos garantizar la inclusión de todas las sugerencias, las tenemos muy en cuenta para nuestro calendario de contenido.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">¿Las meditaciones están en español latino?</div>
+            <div class="faq-answer">
+              Sí, todo nuestro contenido está creado originalmente en español latino, con voces profesionales cálidas y cercanas. No usamos traducciones de otros idiomas, cada meditación está escrita y grabada pensando en nuestra comunidad hispanohablante.
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <h2 style="margin-top: var(--space-5xl);">¿No encontraste lo que buscabas?</h2>
+        <p>Nuestro equipo está aquí para ayudarte. Escríbenos y te responderemos lo antes posible.</p>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: var(--space-base); margin-top: var(--space-xl);">
+          <a href="mailto:soporte@marea.app" class="btn btn--primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            Contactar Soporte
+          </a>
+          <a href="index.html" class="btn btn--secondary">
+            Volver al inicio
+          </a>
+        </div>
+
+        <div style="background: var(--primary-50); border-radius: var(--radius-lg); padding: var(--space-xl); margin-top: var(--space-3xl);">
+          <h4 style="margin-bottom: var(--space-sm);">💡 Consejo</h4>
+          <p style="margin-bottom: 0;">Para una respuesta más rápida, incluye en tu mensaje: tu sistema operativo (iOS/Android), versión de la app, y una descripción detallada del problema o consulta.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span style="font-size: 1.5rem;">🌊</span>
+            <span class="footer__logo-text">MAREA</span>
+          </div>
+          <p class="footer__tagline">Tu refugio de calma. Meditaciones guiadas en español para el bienestar mental.</p>
+        </div>
+        
+        <div class="footer__column">
+          <h4>Producto</h4>
+          <ul class="footer__links">
+            <li><a href="index.html#features" class="footer__link">Características</a></li>
+            <li><a href="index.html#categories" class="footer__link">Categorías</a></li>
+            <li><a href="index.html#download" class="footer__link">Descargar</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4>Soporte</h4>
+          <ul class="footer__links">
+            <li><a href="support.html" class="footer__link">Centro de ayuda</a></li>
+            <li><a href="support.html#faq" class="footer__link">Preguntas frecuentes</a></li>
+            <li><a href="support.html#contact" class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4>Legal</h4>
+          <ul class="footer__links">
+            <li><a href="privacy.html" class="footer__link">Política de Privacidad</a></li>
+            <li><a href="terms.html" class="footer__link">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2025 MAREA. Todos los derechos reservados.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const nav = document.getElementById('nav');
+    
+    navToggle.addEventListener('click', () => {
+      nav.classList.toggle('is-open');
+    });
+  </script>
+</body>
+</html>
