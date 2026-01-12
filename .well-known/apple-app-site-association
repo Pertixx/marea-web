@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["6Q4ZHTCT23.com.startnode.marea"],
+        "paths": ["/meditation/*"],
+        "components": [
+          {
+            "/": "/meditation/*"
+          }
+        ]
+      }
+    ]
+  }
+}

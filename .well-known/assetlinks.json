@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.startnode.marea",
+      "sha256_cert_fingerprints": [
+        "46:C0:7E:14:22:A9:92:14:BE:BB:0D:48:8E:01:8D:70:22:8F:D0:0A:F7:6B:1E:80:30:C6:47:59:6D:B4:2E:5B"
+      ]
+    }
+  }
+]
