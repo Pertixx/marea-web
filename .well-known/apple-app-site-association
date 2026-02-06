@@ -4,10 +4,13 @@
     "details": [
       {
         "appIDs": ["6Q4ZHTCT23.com.startnode.marea"],
-        "paths": ["/meditation/*"],
+        "paths": ["/meditation/*", "/routine/*"],
         "components": [
           {
             "/": "/meditation/*"
+          },
+          {
+            "/": "/routine/*"
           }
         ]
       }
