@@ -141,13 +141,9 @@
     <p>Descarga MAREA para acceder a esta meditación y a todo nuestro contenido de bienestar mental.</p>
     
     <div class="buttons">
-      <a href="https://apps.apple.com/app/marea" class="btn btn-primary" id="ios-btn">
+      <a href="https://apps.apple.com/us/app/marea-meditaci%C3%B3n-y-sue%C3%B1o/id6757340645" class="btn btn-primary" id="ios-btn">
         <span class="icon"></span>
         Descargar en App Store
-      </a>
-      <a href="https://play.google.com/store/apps/details?id=com.startnode.marea" class="btn btn-secondary" id="android-btn">
-        <span class="icon">🤖</span>
-        Disponible en Google Play
       </a>
     </div>
     
@@ -164,7 +160,6 @@
       
       // Detectar plataforma
       const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-      const isAndroid = /Android/.test(navigator.userAgent);
       
       // Intentar abrir la app automáticamente después de un pequeño delay
       if (meditationId && meditationId !== 'meditation') {
@@ -184,15 +179,6 @@
         }, 500);
       }
       
-      // Resaltar el botón correcto según la plataforma
-      if (isIOS) {
-        document.getElementById('ios-btn').style.order = '-1';
-      } else if (isAndroid) {
-        document.getElementById('android-btn').classList.remove('btn-secondary');
-        document.getElementById('android-btn').classList.add('btn-primary');
-        document.getElementById('ios-btn').classList.remove('btn-primary');
-        document.getElementById('ios-btn').classList.add('btn-secondary');
-      }
     })();
   </script>
 </body>
